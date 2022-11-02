@@ -1,0 +1,83 @@
+.body {
+  position: relative;
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  .centrar {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    left: 0;
+    right: 0;
+  }
+  .fondo-hero {
+    height: 100vh;
+    object-fit: cover;
+  }
+  .color {
+    color: #f6ea00;
+  }
+  h1 {
+    color: #f3f3f3;
+    text-transform: uppercase;
+  }
+  
+  h2 {
+    color: #f3f3f3;
+    font-size: 1.4rem;
+  }
+  .animacion {
+    margin-left: 1rem;
+    color: #f6ea00;
+  }
+  @media (min-width: 768px) {
+    h1 {
+      margin-bottom: 3rem;
+      font-size: 3rem;
+    }
+    h2 {
+      font-size: 2rem;
+    }
+  }
+}
+.redes{
+  position: fixed;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  background-color: #f6ea00;
+  border-radius: 10px 0 0 10px;
+  top: 35%;
+  right: 0;
+  .logo-redes{
+    font-size: 1.5rem;
+    margin:  1rem;
+    color: #222;
+    &:hover{
+      transform: scale(1.1);
+      transition: all .2s ease;
+      cursor: pointer;
+    }
+    @media(min-width: 768px){
+      font-size: 2.2rem;
+    }
+  }
+  
+}
+.contacto{
+  text-decoration: none;
+  background-color: #f3f3f3;
+  color: #222;
+  padding: .5rem;
+  border-radius: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+}

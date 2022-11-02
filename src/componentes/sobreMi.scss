@@ -1,0 +1,50 @@
+.contenedor {
+  position: relative;
+  background-image: url(../img/sobre-mi.webp);
+  background-position: center right;
+  padding: 10rem 2rem 2rem;
+  height: 100vh;
+  color: #f3f3f3;
+
+  .texto {
+    position: relative;
+    z-index: 1;
+    text-shadow: 14px -7px 7px #aaa;
+    .titulo,
+    .color {
+      color: #f6ea00;
+    }
+  }
+
+  .opacidad {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
+  @media (min-width: 768px) {
+    background-position: center center;
+    text-align: start;
+    display: flex;
+    align-items: center;
+    .texto{
+        padding: 2rem 2rem 2rem 4rem;
+        width: 50vw;
+    }
+    .titulo{
+        margin-bottom: 4rem;
+    }
+    
+
+    .fondo-sobreMi {
+      width: 100vw;
+      height: 100vh;
+      object-fit: contain;
+      border: solid 2px red;
+    }
+    
+  }
+}

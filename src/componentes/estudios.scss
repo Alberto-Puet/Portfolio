@@ -1,0 +1,90 @@
+.contenedor-estudios {
+  position: relative;
+  background-image: url(../img/fondo-estudios.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  padding: 2rem;
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  .estudios {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 15px;
+    box-shadow: 8px 8px 15px #000;
+    width: 80%;
+    height: 95%;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto auto;
+    padding: 0.8rem;
+    @media(min-width:768px){
+      height: 85%;
+      padding: 1rem;
+    }
+    .separacion {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  .logo {
+    display: flex;
+    justify-content: center;
+    bottom: 1.4rem;
+
+    .img-2 {
+      width: 5rem;
+    }
+  }
+  .logo-1 {
+    display: flex;
+    justify-content: center;
+    bottom: 1.4rem;
+    .img-1 {
+      width: 3rem;
+    }
+  }
+
+  .logo-3 {
+    display: flex;
+    justify-content: center;
+    bottom: 1.4rem;
+    .img-3 {
+      width: 3.5rem;
+    }
+  }
+
+  .estudio-card {
+    margin: auto;
+    height: auto;
+    padding: 1rem;
+    border-bottom: solid 3px #f6ea00;
+    width: 80%;
+    p {
+      margin-bottom: 13px;
+      font-size: 1rem;
+      font-weight: 600;
+      color: #f3f3f3;
+    }
+    h3 {
+      color: #f3f3f3;
+      font-size: 1.1rem;
+      margin: 10px 0;
+    }
+  }
+  .certificado{
+    filter: invert(100%) sepia(1%) saturate(4514%) hue-rotate(124deg) brightness(116%) contrast(90%);
+    font-size: 2rem;
+  }
+}
+
