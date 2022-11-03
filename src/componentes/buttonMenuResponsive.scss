@@ -4,6 +4,7 @@
   margin: 10px 10px;
   position: absolute;
   cursor: pointer;
+  z-index: 45346534;
 }
 .nav-icon-5 span {
   background-color: #fff;
@@ -46,4 +47,7 @@
 .nav-icon-5.open span:nth-child(3) {
   transform: rotate(-45deg);
   top: 13px;
+}
+.open{
+  right: 2rem;
 }
