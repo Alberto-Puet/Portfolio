@@ -9,7 +9,7 @@ function Proyectos() {
     <>
       <div className="contenedor-general" id="proyectos">
       <div className="overlay"></div>
-        <h1>Mis Proyectos</h1>
+        <h1 className="proyectos-titulo">Mis Proyectos</h1>
 
         <div className="contenedor-proyectos">
          

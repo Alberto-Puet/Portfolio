@@ -9,7 +9,7 @@ import {
   SiVisualstudiocode,
   SiNetlify,
 } from "react-icons/si";
-import { FaSass } from "react-icons/fa";
+import { FaSass,FaGitAlt } from "react-icons/fa";
 import { BsTerminalFill, BsGithub } from "react-icons/bs";
 
 function Tecnologias() {
@@ -58,6 +58,10 @@ function Tecnologias() {
           <div className="contenedor-logo">
             <BsGithub className="logo github" />
             <p>GitHub</p>
+          </div>
+          <div className="contenedor-logo">
+            <FaGitAlt className="logo git" />
+            <p>Git</p>
           </div>
           <div className="contenedor-logo">
             <SiNetlify className="logo netlify" />

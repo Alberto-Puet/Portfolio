@@ -5,6 +5,9 @@
   background-position: center center;
   background-size: cover;
   height: 100vh;
+  @media(min-width:768px){
+    height: 130vh;
+  }
   .overlay {
     position: absolute;
     top: 0;
@@ -18,7 +21,6 @@
     right: 0;
     left: 0;
     margin: auto;
-    width: 26%;
     text-align: center;
     top: 4rem;
     color: #fff;

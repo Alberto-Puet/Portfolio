@@ -27,6 +27,8 @@
     bottom: 0;
     margin: auto auto;
     padding: 0.8rem;
+    text-align: center;
+
     @media(min-width:768px){
       height: 85%;
       padding: 1rem;
@@ -34,47 +36,53 @@
     .separacion {
       display: flex;
       justify-content: space-between;
+      margin-left: 2rem;
+      @media(min-width: 768px){
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        align-items: center;
+      }
     }
   }
 
-  .logo {
-    display: flex;
-    justify-content: center;
-    bottom: 1.4rem;
-
-    .img-2 {
-      width: 5rem;
+ 
+  img{
+    display: none;
+    @media(min-width: 768px){
+      display: block;
     }
   }
-  .logo-1 {
-    display: flex;
-    justify-content: center;
-    bottom: 1.4rem;
-    .img-1 {
-      width: 3rem;
-    }
-  }
-
-  .logo-3 {
-    display: flex;
-    justify-content: center;
-    bottom: 1.4rem;
-    .img-3 {
-      width: 3.5rem;
-    }
+  .img-1,.img-3{
+    margin: 0 0 1rem 2rem;
   }
 
   .estudio-card {
-    margin: auto;
-    height: auto;
     padding: 1rem;
     border-bottom: solid 3px #f6ea00;
     width: 80%;
+    @media(min-width:768px){
+      display: grid;
+      grid-template-columns: .5fr 2fr;
+      .img-1,.img-3{
+        width: 4rem;
+        height: 4rem;
+        margin-top: 2rem;
+      }
+      p{
+        font-size: .6rem;
+      }
+      .img-2{
+        width: 7rem;
+        height: 3rem;
+        margin-top: 2rem;
+      }
+    }
     p {
       margin-bottom: 13px;
-      font-size: 1rem;
+      font-size: .8rem;
       font-weight: 600;
       color: #f3f3f3;
+      padding-left: .7rem;
     }
     h3 {
       color: #f3f3f3;
@@ -83,8 +91,19 @@
     }
   }
   .certificado{
+    margin-left: .6rem;
     filter: invert(100%) sepia(1%) saturate(4514%) hue-rotate(124deg) brightness(116%) contrast(90%);
     font-size: 2rem;
+  }
+}
+@media(min-width:768px){
+  .texto{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    p{
+      margin-top: 1rem;
+    }
   }
 }
 

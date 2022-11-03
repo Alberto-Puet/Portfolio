@@ -2,14 +2,21 @@
   position: relative;
   background-image: url(../img/sobre-mi.webp);
   background-position: center right;
-  padding: 10rem 2rem 2rem;
+  padding: 2rem 3rem;
   height: 100vh;
   color: #f3f3f3;
+  @media(min-width:768px){
+    padding: 10rem 2rem 2rem;
+  }
 
   .texto {
     position: relative;
     z-index: 1;
-    text-shadow: 14px -7px 7px #aaa;
+    text-shadow: -14px -7px 7px #aaa;
+    @media(min-width:768px){
+      text-shadow: 14px -7px 7px #aaa;
+
+    }
     .titulo,
     .color {
       color: #f6ea00;
