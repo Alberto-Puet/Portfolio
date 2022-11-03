@@ -47,7 +47,7 @@ function Hero() {
         <a href="https://www.linkedin.com/in/alberto-puet/" target="_blank">
           <BsLinkedin className="logo-redes linkedin" />
         </a>
-        <a href="https://wa.me/+5415548664" target="_blank">
+        <a href="https://wa.me/+543447548664" target="_blank">
           <BsWhatsapp className="logo-redes whatsapp" />
         </a>
         <a href="https://github.com/Alberto-Puet" target="_blank">
