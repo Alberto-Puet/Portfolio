@@ -1,10 +1,10 @@
 .nav-icon-5 {
-  width: 35px;
-  height: 30px;
-  margin: 10px 10px;
+  width: 30px;
+  height: 25px;
+  margin: 7px 7px;
   position: absolute;
   cursor: pointer;
-  z-index: 45346534;
+  z-index: 100;
 }
 .nav-icon-5 span {
   background-color: #fff;
@@ -20,7 +20,7 @@
   left: 0px;
 }
 .nav-icon-5 span:nth-child(2) {
-  top: 13px;
+  top: 10.5px;
   left: 0px;
   opacity: 1;
 }
@@ -49,5 +49,6 @@
   top: 13px;
 }
 .open{
-  right: 2rem;
+  right: 10rem;
+
 }

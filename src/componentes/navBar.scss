@@ -20,8 +20,7 @@
   .botonResponsive {
     position: relative;
     top: -25rem;
-    right: 1.3rem;
-    background-color: #f6ea00;
+    left:calc(100% - 75%);
     @media (min-width: 768px) {
       display: none;
     }
